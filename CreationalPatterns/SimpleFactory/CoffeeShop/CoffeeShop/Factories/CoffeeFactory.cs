@@ -5,7 +5,7 @@ namespace CoffeeShop.Factories
 {
     public static class CoffeeFactory
     {
-        public static Coffee GetCoffee(CoffeeType coffeeType)
+        public static Coffe GetCoffee(CoffeeType coffeeType)
         {
             switch (coffeeType)
             {
