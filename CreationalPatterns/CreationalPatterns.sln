@@ -19,11 +19,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeShop", "SimpleFactory
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{55F73460-E96E-454F-93CE-0D35CF5DA10C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentTypes", "FactoryMethod\DocumentTypes\DocumentTypes.csproj", "{7C8FF2FF-6ECF-464F-BD65-7B93EF58E219}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentTypes", "FactoryMethod\DocumentTypes\DocumentTypes.csproj", "{7C8FF2FF-6ECF-464F-BD65-7B93EF58E219}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "AbstractFactory", "{AA45FCE8-46A1-43C9-BB26-1CDC85BCBF70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShop", "AbstractFactory\CoffeeShop\CoffeeShop.csproj", "{4042365D-7759-49CC-9992-8E524AAD88EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeShop", "AbstractFactory\CoffeeShop\CoffeeShop.csproj", "{4042365D-7759-49CC-9992-8E524AAD88EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{A00259E1-45D0-4E6C-BC32-6F7D5909FAB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeCloning", "Prototype\EmployeeCloning\EmployeeCloning.csproj", "{7C3970DE-5F13-48B7-B330-80B5CC6BAFE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,10 @@ Global
 		{4042365D-7759-49CC-9992-8E524AAD88EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4042365D-7759-49CC-9992-8E524AAD88EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4042365D-7759-49CC-9992-8E524AAD88EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C3970DE-5F13-48B7-B330-80B5CC6BAFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C3970DE-5F13-48B7-B330-80B5CC6BAFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C3970DE-5F13-48B7-B330-80B5CC6BAFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C3970DE-5F13-48B7-B330-80B5CC6BAFE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +71,7 @@ Global
 		{4564CE0C-F4A9-4928-8515-828404224799} = {3A1A71BA-7494-47C7-BBEA-7E1C21737D6B}
 		{7C8FF2FF-6ECF-464F-BD65-7B93EF58E219} = {55F73460-E96E-454F-93CE-0D35CF5DA10C}
 		{4042365D-7759-49CC-9992-8E524AAD88EC} = {AA45FCE8-46A1-43C9-BB26-1CDC85BCBF70}
+		{7C3970DE-5F13-48B7-B330-80B5CC6BAFE5} = {A00259E1-45D0-4E6C-BC32-6F7D5909FAB1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC5EE6FF-6633-4F3A-8024-3486296D1B4F}
