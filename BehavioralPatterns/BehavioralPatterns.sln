@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurchaseApproval", "ChainOfResponsibility\PurchaseApproval\PurchaseApproval.csproj", "{CA7DC52D-A5D6-403B-9606-C0EF76B4CB83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantComplaint", "ChainOfResponsibility\RestaurantComplaint\RestaurantComplaint.csproj", "{D34DEA64-142A-4416-BD67-A9A8BC4E51D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{CA7DC52D-A5D6-403B-9606-C0EF76B4CB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA7DC52D-A5D6-403B-9606-C0EF76B4CB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA7DC52D-A5D6-403B-9606-C0EF76B4CB83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34DEA64-142A-4416-BD67-A9A8BC4E51D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34DEA64-142A-4416-BD67-A9A8BC4E51D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34DEA64-142A-4416-BD67-A9A8BC4E51D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34DEA64-142A-4416-BD67-A9A8BC4E51D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CA7DC52D-A5D6-403B-9606-C0EF76B4CB83} = {E9033140-C648-466A-B152-21498FB3987F}
+		{D34DEA64-142A-4416-BD67-A9A8BC4E51D7} = {E9033140-C648-466A-B152-21498FB3987F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {997E4235-281C-46F4-9EBE-954523F1E1B1}
